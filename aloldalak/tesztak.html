@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Flow receptek</title>
+
+    <link rel="icon" href="../img/logok/favicon.ico">
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="menu">
+    <a href="../index.html">
+      <img src="../img/logok/flowlogo.png" class="logo">
+    </a>
+    <p class="sublogo pac">Flow receptek</p>
+    <p class="category-btn">Recept kategóriák</p>
+      <a href="reggelik.html" class="btn-bg"> Reggelik </a>
+      <a href="levesek.html" class="btn-bg"> Levesek </a>
+      <a href="foetelek.html" class="btn-bg"> Főételek </a>
+      <a href="tesztak.html" class="btn-bg active"> Tészták </a>
+      <a href="szendvicsek.html" class="btn-bg"> Szendvicsek </a>
+      <a href="salatak.html" class="btn-bg"> Saláták </a>
+      <a href="edessegek.html" class="btn-bg"> Édességek </a>
+  </div>
+
+<div class="main">
+  <div class="subtitle pac">Tészták</div>
+
+    <div class="block">
+      <img src="../img/TÉSZTÁK/spentótos.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Spenótos csirkés penne</p>
+          <p>Elkészítés: 30 perc</p>
+          <p>KÖZEPES</p>
+        </div>
+        <p class="description">Elég népszerű recept az interneten, ezért én is elhoztam nektek a saját verziómat!</p>
+        <div id="fahejas1-gomb" onclick="receptAblak('fahejas1');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="fahejas1-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <p>Tartalom1</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <img src="../img/TÉSZTÁK/sonkássajtos.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Hamis carbonara penne</p>
+          <p>Elkészítés: 20 perc</p>
+          <p>EGYSZERŰ</p>
+        </div>
+        <p class="description">Ha semmi idő és ötletem akkor ezt csinálom. Lehetetlen megunni.</p>
+        <div id="hcarbon-gomb" onclick="receptAblak('hcarbon');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="hcarbon-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <h1>Hamis carbonara penne</h1>
+          <p>Hozzávalók:</p>
+          <ul>
+            <li>250 g tészta (1 ek só)</li>
+            <li>100 g füstölt sonka</li>
+            <li>1 ek olívaolaj</li>
+            <li>2 dl főzőtejszín</li>
+            <li>100 g trappista sajt </li>
+          </ul>
+
+          <p></p>Elkészítés:
+          <ol>
+            <li>A tésztát feltesszük főni a sós vízben. Nagyjából 8 perc kell neki.</li>
+            <li>A sonkát ízlés szerint  kisebb nagyobb csíkokra vágjuk</li>
+            <li>Egy serpenyőben az olajon elkezdjük pirítani.</li>
+            <li>Ehhez hozzáöntjük a tejszínt és felforraljuk.</li>
+            <li>Végül pedig a sajtot is hozzátesszük.</li>
+            <li>Leszűrjük a tésztát és a főzővízből megmentünk egy 0,5 dl-t és a szószhoz öntjük a tésztával együtt.KÉSZ</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <img src="../img/TÉSZTÁK/macandcheese.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Mac and cheese </p>
+          <p>Elkészítés: 20 perc</p>
+          <p>EGYSZERŰ</p>
+        </div>
+        <p class="description">Egy igazi amerikai étel, extra krémes és sajtos tészta. Na ettől biztos nem maradtok éhesek.</p>
+        <div id="mac-gomb" onclick="receptAblak('mac');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="mac-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <h1>Mac and cheese</h1>
+          <p>Hozzávalók:</p>
+          <ul>
+            <li>500 g tészta (1 ek só)</li>
+            <li>100 g vaj</li>
+            <li>100 g liszt</li>
+            <li>1 liter tej</li>
+            <li>400 g trappista sajt</li>
+            <li>FŰSZEREK: só, bors, szerecsendió, fokhagyma granulátum</li>
+          </ul>
+
+          <p></p>Elkészítés:
+          <ol>
+            <li>A tésztát feltesszük főni a sós vízben. Nagyjából 8 perc kell neki.</li>
+            <li>Basamelt készítünk. A vajat egy nagyobb lábasban megolvasszuk és beleöntjük a lisztet és pict átmelegítjük.</li>
+            <li>Ráöntjük a tejet is és foyamatos keverés mellett felforraljuk ameddig besűrűsödik.</li>
+            <li>A fűszereket ízlés szerint beleadagoljuk.</li>
+            <li>Majd a sajtot is belerakjuk és megolvasszuk benne.</li>
+            <li>Összekeverjük a tésztával.KÉSZ</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="about-me">
+  <img src="../img/profile.jpg" class="profile">
+  <p>Szia. Flóra vagyok!</p>
+  <p>Tanulok még és szenvedélyesen <br> rajongok a gasztronómiáért!</p>
+  <p>Üdvözöllek a blogomon!</p>
+  <div class="insta">
+    <div>INSTAGRAM</div>
+    <a href="https://www.instagram.com/flowreceptek/" target="_blank">@flowreceptek</a>
+    <br>
+    <a href="https://www.instagram.com/nemeth.floraa/" target="_blank">@nemeth.floraa</a>
+  </div>
+</div>
+
+<script src="../recept-ablak.js"></script>
+</body>

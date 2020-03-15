@@ -1,0 +1,393 @@
+ <!>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Flow receptek</title>
+
+    <link rel="icon" href="../img/logok/favicon.ico">
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="menu">
+    <a href="../index.html">
+      <img src="../img/logok/flowlogo.png" class="logo">
+    </a>
+    <p class="sublogo pac">Flow receptek</p>
+    <p class="category-btn">Recept kategóriák</p>
+      <a href="reggelik.html" class="btn-bg"> Reggelik </a>
+      <a href="levesek.html" class="btn-bg"> Levesek </a>
+      <a href="foetelek.html" class="btn-bg"> Főételek </a>
+      <a href="tesztak.html" class="btn-bg"> Tészták </a>
+      <a href="szendvicsek.html" class="btn-bg"> Szendvicsek </a>
+      <a href="salatak.html" class="btn-bg"> Saláták </a>
+      <a href="edessegek.html" class="btn-bg active"> Édességek </a>
+  </div>
+
+<div class="main">
+  <div class="subtitle pac">Édességek</div>
+
+    <div class="block">
+      <img src="../img/ÉDESSÉGEK/brownie.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">EXTRA csokoládés brownie</p>
+          <p>Elkészítés: 30 perc</p>
+          <p>KÖZEPES</p>
+        </div>
+        <p class="description">A tökéletes reggeli hiszen gyors és nagyon egyszerű. Gyümölcsel, magvakkal a legjobb.</p>
+        <div id="brownie-gomb" onclick="receptAblak('brownie');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="brownie-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <h1>EXTRA csokoládés brownie</h1>
+          <p>Hozzávalók:</p>
+          <ul>
+            <li>250 g margarin</li>
+            <li>200 g étcsokoládé</li>
+            <li>70 g holland kakaó</li>
+            <li>4 db tojás</li>
+            <li>280 g cukor</li>
+            <li>70 g liszt</li>
+          </ul>
+              <p></p>Elkészítés:
+          <ol>
+            <li>A vajat és a csokoládét vízgőz felett megolvasszuk, míg nem válik egyneművé.</li>
+            <li>Majd ebbe bele keverjük a kakaót és félretesszük kihűlni</li>
+            <li>A cukrot és a tojásokat habverő segítségével felverjük</li>
+            <li>Összekeverjük a cukros tojás és a csokoládés masszát</li>
+            <li>Majd a lisztet is</li>
+            <li>Sütőpapírral kibélelt tepsibe öntjük</li>
+            <li>Lehet a tetejére szórni a mogyorót</li>
+            <li>Előmelegített sütőbe 180 fokon hőlégkeveréssel 20 percig sütjük. KÉSZ</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <img src="../img/ÉDESSÉGEK/habosdiós.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Habos diós süti</p>
+          <p>Elkészítés: 45 perc</p>
+          <p>KÖZEPES</p>
+        </div>
+        <p class="description">Ez a mi kis családi receptünk ami nélkül nincsen karácsony. Mindenki szeretni fogja.</p>
+        <div id="fahejas1-gomb" onclick="receptAblak('fahejas1');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="fahejas1-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <p>Tartalom1</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <img src="../img/ÉDESSÉGEK/amerikaisüti.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Amerikai keksz</p>
+          <p>Elkészítés: 30 perc</p>
+          <p>KÖZEPES</p>
+        </div>
+        <p class="description">Gyorsan kész van és ezerszer jobb mint a bolti. Ha bekuckoznál egy jó könyv mellé akkor készítsd ezt és vegyél magadhoz egy nagy bögre tejet és élvezd.</p>
+        <div id="fahejas1-gomb" onclick="receptAblak('fahejas1');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="fahejas1-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <p>Tartalom1</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <img src="../img/ÉDESSÉGEK/isler.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Fehér csokoládés-pisztáciás isler</p>
+          <p>Elkészítés: sok idő</p>
+          <p>NEHÉZ</p>
+        </div>
+        <p class="description">Nem ez a süti amit egy óra alatt összedobsz, de az íze kárpótolni fog.</p>
+        <div id="fahejas1-gomb" onclick="receptAblak('fahejas1');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="fahejas1-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <p>Tartalom1</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <img src="../img/ÉDESSÉGEK/pannacotta.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Olaszos Panna Cotta</p>
+          <p>Elkészítés: 10 perc + 3-4 óra dermedés</p>
+          <p>EGYSZERŰ</p>
+        </div>
+        <p class="description">Igazi olasz finomság. Nyárra a legjobb édesség hiszen könnyű és hűsíző. </p>
+        <div id="pannacotta-gomb" onclick="receptAblak('pannacotta');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="pannacotta-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <h1>Olaszos Panna Cotta</h1>
+          <p>Hozzávalók:</p>
+          <ul>
+            <li>3 dl 3,5-ös tej</li>
+            <li>1 tk vanília aroma</li>
+            <li>3-4 ek cukor</li>
+            <li>1 csomag zselatinr</li>
+          </ul>
+          <p></p>Elkészítés:
+          <ol>
+            <li>A tejet, tejszínt és a vaníliát összeöntjük egy lábasba és forrásig melegítjük.</li>
+            <li>A zselatint vízben duzzasztjuk majd hozzáöntjük és elkeverjük a már tűzről levett tejszínes tejben.</li>
+            <li>Ezt poharakba öntjük és 3-4 órára betesszük a hűtőbe.</li>
+            <li>Kivesszük és lekvárral a tetején tálaljuk. KÉSZ</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <img src="../img/ÉDESSÉGEK/pöffeteg.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Pöffeteg</p>
+          <p>Elkészítés: 15 perc + 30 perc pihentetés</p>
+          <p>KÖZEPES</p>
+        </div>
+        <p class="description">A csokoládé bomba. Általában még a karácsonyi ajándékok mellé is szoktam csomagolni egy pár darabot mindenkinek, hiszen megvesznek érte. </p>
+        <div id="pöfi-gomb" onclick="receptAblak('pöfi');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="pöfi-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <h1>Pöffeteg</h1>
+          <p>Hozzávalók:</p>
+          <ul>
+            <li>300 g liszt</li>
+            <li>130 g kakaó (holland)</li>
+            <li>1 csomag sütőpor</li>
+            <li>1 csomag vaníliás cukor</li>
+            <li>400 g cukor</li>
+            <li>1 csipet só</li>
+            <li>120 g vaj</li>
+            <li>4 db tojás</li>
+            <li>100 g étcsokoládé</li>
+            <li>porcukor amibe beleforgatjuk a kis golyókat</li>
+            <li></li>
+          </ul>
+          <p></p>Elkészítés:
+          <ol>
+            <li>Az összes száraz hozzávalót összekeverjük.(liszt, kakaó, sütőpor,vaníliás cukor,cukor,)</li>
+            <li>A csokoládét feldaraboljuk.</li>
+            <li>A hideg vajat belemorzsoljuk, majd a felvert tojásokat is hozzáadjuk.</li>
+            <li>Belegyúrjuk majd a csokoládét.</li>
+            <li>Fél órát a hűtőbe rakjuk.</li>
+            <li>Dió nagyságú golyókat formázunkporcukorba forgatjuk és 180 fokon 8-10 percig sütjük.</li>
+            </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <img src="../img/ÉDESSÉGEK/stangli.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Sajtos, szezámmagos stangli</p>
+          <p>Elkészítés: 45 perc + egy éjszaka pihentetés</p>
+          <p>KÖZEPES</p>
+        </div>
+        <p class="description">Ha éppen átjönnek a barátok akkor ez készítsd el neki. Nagy mennyiség is gyorsan megvan és egy kis borhoz isteni.</p>
+        <div id="stangli-gomb" onclick="receptAblak('stangli');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="stangli-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <h1>Sajtos, szezámmagos stangli</h1>
+          <p>Hozzávalók:</p>
+          <ul>
+            <li>1 kg rétesliszt</li>
+            <li>0,5 kg margarin</li>
+            <li>0,5 l tejföl</li>
+            <li>2 tojás sárgája</li>
+            <li>6 csapott tk só</li>
+            <li>50 g élesztő</li>
+            <li>tetejére reszelt sajt/szezámmag</li>
+          </ul>
+          <p></p>Elkészítés:
+          <ol>
+            <li>A lisztbe belemorzsoljuk az élesztőt és a margarint.</li>
+            <li>Ezután minden mást hozzáadunk átgyúrjuk, a tetejére szórunk egy pici réteslisztet.</li>
+            <li>1 estére hűtőbe tesszük.</li>
+            <li>Másnap réteslisztes felületen kinyújtjuk olyan 1 cm-esre.</li>
+            <li>Megszórjuk sajttal vagy szezámmaggal és 180 fokos sütőben aranybarnára sütjük.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <img src="../img/ÉDESSÉGEK/tart.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">EXTRA csokoládés tart/pite</p>
+          <p>Elkészítés: 20 perc + 2-3 óra pihentetés</p>
+          <p>KÖZEPES</p>
+        </div>
+        <p class="description">Csokoládé imádók fel! Az alapja csak oreo a tetje meg egy egyszerű ganache </p>
+        <div id="tart-gomb" onclick="receptAblak('tart');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="tart-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <h1>EXTRA csokoládés tart/pite</h1>
+          <p>Hozzávalók:</p>
+          <ul>
+            Kekszes alap:
+            <li>24 db Oreo keksz (érdemes oreoval csinálni mert krémesebb)j</li>
+            <li>85 g vaj/margarin (olvasztott)</li>
+            Töltelék:
+            <li>200 g tejcsokoládé</li>
+            <li>150 g étcsokoládé</li>
+            <li>240 ml főzőtejszín</li>
+            <li>60 g vaj (kis darabokra vágva)</li>
+          </ul>
+          <p></p>Elkészítés:
+          <ol>
+            <li>Először az alapot készítjük el,a kekszet ledaráljuk.</li>
+            <li>Hozzákeverjük az olvasztott vajat.</li>
+            <li>Majd egy pite formába egyenletesen belenyomkodjuk, ezzel kész is vagyunk.</li>
+            <li>A krémhez a főzőtejszínt felforraljuk a vajjal.</li>
+            <li>Ráöntjük a kockákra tört csokoládékat. </li>
+            <li>Egy keverővel elkeverjük és  az alapra öntjük.</li>
+            <li>Berakjuk 3 órára a hűtőbe és KÉSZ.</li>
+            <li>(Esetleg habtejszínből/tojásfehérjéből és cukorból lehet rá csinálni habot de ezt csak akkor érdemes ha azonnal megesszük a dermedés után.)</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="block">
+      <img src="../img/ÉDESSÉGEK/bejglik.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Csoda bejglik (diós, mákos, csokoládés)</p>
+          <p>Elkészítés: 40 perc + 40 perc pihentetés</p>
+          <p>NEHÉZ</p>
+        </div>
+        <p class="description">Nem csak karácsonyra!! Én leginkább a csokoládésakt szoktam nagyon sokszor megcsinálni. Ez is egy tökéletes vendégváró lehet! </p>
+        <div id="bejglik-gomb" onclick="receptAblak('bejglik');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="bejglik-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <h1>Csoda bejglik (diós, mákos, csokoládés)</h1>
+          <p>Hozzávalók:</p>
+          <ul>
+            <li>800 g liszt</li>
+            <li>200 g margarin</li>
+            <li>1 tojás sárgája</li>
+            <li>1 ek tejföl</li>
+            <li>150 g élesztő</li>
+            <li>2 ek cukor</li>
+            <li>6 dl tej</li>
+            <li>1 kk só</li>
+          </ul>
+          <p></p>Elkészítés:
+          <ol>
+            <li>Egy lábasba fel tesszük melegíteni a tejet a cukorral, sóval.</li>
+            <li>30-40 fokosra kell melegíteni.</li>
+            <li>Ezután belemorzsoljuk az élesztőt, és hagyjuk megkelni 10-15 percig.</li>
+            <li>A lisztbe belemorzsoljuk a margarint.</li>
+            <li>Hozzáadjuk a tojásnak a sárgáját és a tejföl.</li>
+            <li>Végül beleöntjük a felfuttatott élesztőt.</li>
+            <li>4 db cipót formázunk és hagyjuk a melegben kelni 30-40 percig.</li>
+            <li>Ha megkelt téglalap alakúra nyújtjuk. Nagyjából 30x20-asra.</li>
+            <li>Majd a töltelékkel megtöltjük a szélétől 3 cm-t elhagyva.</li>
+            <li>A két oldalát ráhajtom a töltelékre és feltekerem.</li>
+            <li>A tetejét lekenjük tojással, és megsütjük.</li>
+            </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <img src="../img/ÉDESSÉGEK/mézi.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Mézeskalács írókával</p>
+          <p>Elkészítés: 50 perc</p>
+          <p>KÖZEPES</p>
+        </div>
+        <p class="description">Karácsony előtt a legjobb program, a sütés és díszítés is egyaránt </p>
+        <div id="mezi-gomb" onclick="receptAblak('mezi');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="mezi-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <h1>Mézeskalács írókával</h1>
+          <p>Hozzávalók:</p>
+          <ul>
+            <li>1 kg liszt</li>
+            <li>300 g porcukor</li>
+            <li>1 ek mézeskalács fűszer</li>
+            <li>300 g vaj</li>
+            <li>1 bögre méz (2,5 dl)</li>
+            <li>3 tojás</li>
+          </ul>
+          <p></p>Elkészítés:
+          <ol>
+            <li>A lisztet, porcukrot, fűszert, szódabikarbónát összekeverjük.</li>
+            <li>Hozzáadjuk a megolvasztott vajat, majd a mézet és a tojásokat. Villával összekeverjük, és ha kezd összeállni átváltunk kézre.</li>
+            <li>3 részre osztjuk és lisztes felületen kinyújtjuk 1 cm-esre és formákat szaggatunk belőle.</li>
+            <li>Előmelegített 180 fokos sütőben 8 percig sütjük. (maximum 9 perc, akkor is ha nagyon puhának látjuk mert kivétel után 1-2 percen belül megdermed)</li>
+            <h1>Díszítés</h1>
+            <ul>
+              <li>2 db tojásfehérje</li>
+              <li>300 g porcukor</li>
+
+              Vízgőz felett addig keverjük ameddig a cukor teljesen fel nem olvad, majd zacskóba vagy nyomózsákba töltjük.Ha a zacskót választottuk akkor egy apró lyukat vágunk rá. Érdemes nem az összes krémet betölteni mert a cukor visszadermed egy idő után, de akárhányszor vissza lehet melegíteni.
+            </ol>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+</div>
+
+<div class="about-me">
+  <img src="../img/profile.jpg" class="profile">
+  <p>Szia. Flóra vagyok!</p>
+  <p>Tanulok még és szenvedélyesen <br> rajongok a gasztronómiáért!</p>
+  <p>Üdvözöllek a blogomon!</p>
+  <div class="insta">
+    <div>INSTAGRAM</div>
+    <a href="https://www.instagram.com/flowreceptek/" target="_blank">@flowreceptek</a>
+    <br>
+    <a href="https://www.instagram.com/nemeth.floraa/" target="_blank">@nemeth.floraa</a>
+  </div>
+</div>
+
+<script src="../recept-ablak.js"></script>
+</body>

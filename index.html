@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Flow receptek</title>
+
+    <link rel="icon" href="img/logok/logok/favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Balra menü -->
+  <div class="menu">
+    <a href="index.html">
+      <img src="./img/logok/flowlogo.png" class="logo">
+    </a>
+    <p class="sublogo pac">Flow receptek</p>
+    <p class="category-btn">Recept kategóriák</p>
+      <a href="aloldalak/reggelik.html" class="btn-bg"> Reggelik </a>
+      <a href="aloldalak/levesek.html" class="btn-bg"> Levesek </a>
+      <a href="aloldalak/foetelek.html" class="btn-bg"> Főételek </a>
+      <a href="aloldalak/tesztak.html" class="btn-bg"> Tészták </a>
+      <a href="aloldalak/szendvicsek.html" class="btn-bg"> Szendvicsek </a>
+      <a href="aloldalak/salatak.html" class="btn-bg"> Saláták </a>
+      <a href="aloldalak/edessegek.html" class="btn-bg"> Édességek </a>
+  </div>
+
+<!-- Középen receptek -->
+<div class="main">
+  <div class="title pac">Legutóbb megosztottak:</div>
+<!-- Recept blokk -->
+<div class="block">
+  <img src="img/SZENDVICSEK/1.jpg" alt="" class="food-image right">
+  <div class="food-text">
+    <div class="food-titles">
+      <p class="name">Rukkololás tojásos szendvics</p>
+      <p>Elkészítés: 12 perc</p>
+      <p>EGYSZERŰ</p>
+    </div>
+    <p class="description">Ebbe minden van ami jó. Rukkola, paradicsom, tükörtojás, olivabogyó na meg persze sok sok sonka.</p>
+    <div id="fahejas1-gomb" onclick="receptAblak('fahejas1');" class="btn-bg food-btn btn"> Recept </div>
+  </div>
+  <div id="fahejas1-tartalom" class="modal">
+    <div class="modal-content">
+      <span id="hatter"></span>
+      <p>Tartalom1</p>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<!-- Jobbra "rólam" -->
+<div class="about-me">
+  <img src="./img/profile.jpg" class="profile">
+  <p>Szia. Flóra vagyok!</p>
+  <p>Tanulok még és szenvedélyesen <br> rajongok a gasztronómiáért!</p>
+  <p>Üdvözöllek a blogomon!</p>
+  <div class="insta">
+    <div>INSTAGRAM</div>
+    <a href="https://www.instagram.com/flowreceptek/" target="_blank">@flowreceptek</a>
+    <br>
+    <a href="https://www.instagram.com/nemeth.floraa/" target="_blank">@nemeth.floraa</a>
+  </div>
+</div>
+
+<script src="./recept-ablak.js"></script>
+</body>

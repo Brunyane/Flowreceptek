@@ -1,0 +1,211 @@
+body {
+  font-family: 'Abhaya Libre', serif;
+}
+
+.pac {
+  font-family: 'Pacifico', cursive;
+}
+
+.menu {
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  margin: 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-right: 0px solid #410A0A;
+}
+
+.logo {
+  padding-top: 20px;
+  width: 120px;
+  height: 108px;
+  cursor: pointer;
+}
+
+.sublogo {
+  font-size: 28px;
+  margin: 5px;
+  color: #410A0A;
+}
+
+.links {
+  font-size: 20px;
+  width: 100%;
+}
+
+.btn-bg {
+  display: block;
+  text-align: center;
+  align-items: center;
+
+  color: white;
+  text-decoration: none;
+
+  background-color: #410A0A;
+  width: 140px;
+  height: auto;
+  margin: 5px;
+  padding: 11px 0;
+}
+
+.btn-bg.food-btn {
+  margin: 40px 5px 22px 0;
+  width: 180px;
+}
+
+.btn-bg:hover {
+  background: #671111;
+  cursor: pointer;
+}
+
+.active {
+  background: #671111;
+  cursor: pointer;
+}
+
+.category-btn {
+  padding: 10px;
+  border-top: solid 4px #410A0A;
+  border-bottom: solid 4px #410A0A;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.main {
+  margin: 0 320px 0 260px;
+}
+
+.title {
+  font-size: 42px;
+  margin: 15px;
+  border-bottom: solid 5px #410A0A;
+  color: #410A0A
+}
+.subtitle {
+  font-size: 42px;
+  margin: 15px;
+  border-bottom: solid 5px #410A0A;
+  color: #410A0A;
+  text-align: center;
+}
+
+.block {
+  display: flex;
+  margin: 20px;
+  justify-content: left;
+  align-items: center;
+}
+
+.food-text {
+
+}
+
+.food-image {
+  width: 300px;
+  margin: 22px 32px 22px 0;
+}
+
+.name {
+  font-size: 32px;
+}
+
+.food-titles {
+  width: 300px;
+  font-size: 22px;
+}
+
+.food-titles > p {
+  margin: 5px 0;
+}
+
+.description {
+  width: 300px;
+  font-size: 22px;
+}
+
+
+.right { margin-left: 0; }
+.left { margin-right: 0; }
+.horizontal { width: 220px; }
+.vertical { width: 220px; }
+
+.about-me {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 360px;
+  height: 100vh;
+  margin: 0px;
+  padding: 20px 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.profile {
+  padding-top: 20px;
+  width: 240px;
+  height: auto;
+  cursor: pointer;
+  border: solid 8px #410A0A;
+  padding: 0;
+  margin: 45px 0 20px 0;
+}
+
+.about-me > p {
+  text-align: center;
+  margin: 5px;
+  font-size: 22px
+}
+
+.insta {
+  text-align: center;
+}
+
+.insta > div {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.insta > a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #410A0A;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 10vw;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}

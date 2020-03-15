@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Flow receptek</title>
+
+    <link rel="icon" href="../img/logok/favicon.ico">
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="menu">
+    <a href="../index.html">
+      <img src="../img/logok/flowlogo.png" class="logo">
+    </a>
+    <p class="sublogo pac">Flow receptek</p>
+    <p class="category-btn">Recept kategóriák</p>
+      <a href="reggelik.html" class="btn-bg active"> Reggelik </a>
+      <a href="levesek.html" class="btn-bg"> Levesek </a>
+      <a href="foetelek.html" class="btn-bg"> Főételek </a>
+      <a href="tesztak.html" class="btn-bg"> Tészták </a>
+      <a href="szendvicsek.html" class="btn-bg"> Szendvicsek </a>
+      <a href="salatak.html" class="btn-bg"> Saláták </a>
+      <a href="edessegek.html" class="btn-bg"> Édességek </a>
+  </div>
+
+<div class="main">
+  <div class="subtitle pac">Reggelik</div>
+
+    <div class="block">
+      <img src="../img/REGGELIK/fahejaszabkasa.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Fahéjas Zabkása</p>
+          <p>Elkészítés: 12 perc</p>
+          <p>EGYSZERŰ</p>
+        </div>
+        <p class="description">A tökéletes reggeli hiszen gyors és nagyon egyszerű. Gyümölcsel, magvakkal a legjobb.</p>
+        <div id="fahejas-gomb" onclick="receptAblak('fahejas');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="fahejas-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <h1>Zabkása</h1>
+          <p>Hozzávalók:</p>
+          <ul>
+            <li>2 dl tej</li>
+            <li>40-50 gramm zabkása</li>
+            <li>Tetejére amit szeretnénk gyümölcsök és magvak</li>
+          </ul>
+
+          <p></p>Elkészítés:
+          <ol>
+            <li>Felteszünk egy lábasban melegedni a tejet</li>
+            <li>Ha átmelegedett beleöntjük a zabot</li>
+            <li>Folyamatosan kevergetjük ameddig meg nem szívja magat a zab(ez egy 3-4 perc, ha kicsit tovább főzzük kicsit keményebb zabkását kapunk)</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="block">
+      <img src="../img/REGGELIK/áfonyástoast.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Áfonyás camembertes toast</p>
+          <p>Elkészítés: 8 perc</p>
+          <p>EGYSZERŰ</p>
+        </div>
+        <p class="description">Mindenki tudja, hogy a camembert és az áfonya gyilkos páros. De attól miért ne ehetnéd reggelire? Mutatok rá egy nagyon jó receptet.</p>
+        <div id="afonya-gomb" onclick="receptAblak('afonya');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="afonya-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <h1>Áfonyás camembertes toast</h1>
+          <p>Hozzávalók:</p>
+          <ul>
+            <li>Toast kenyér</li>
+            <li>Áfonya dzsem/lekvár</li>
+            <li>Camembert sajt</li>
+          </ul>
+
+          <p></p>Elkészítés:
+          <ol>
+            <li>2 toast kenyeret megkenünk lekvárral.</li>
+            <li>Pár szelet camembertet beleteszünk és összefordítjük.</li>
+            <li>Végül serpenyőben minden zsíradék nélkül kicsit megpírítjuk.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="block">
+        <img src="../img/REGGELIK/rántotta.jpg" alt="" class="food-image right">
+        <div class="food-text">
+          <div class="food-titles">
+            <p class="name">Kolbászos rántotta</p>
+            <p>Elkészítés: 10 perc</p>
+            <p>EGYSZERŰ</p>
+          </div>
+          <p class="description">Ki ne tudna ránottát készíteni, és mennyire jó is az egy sietős reggelen. De ha csak egy kicsit felturbózott akkor megunhatatlan.</p>
+          <div id="fahejas1-gomb" onclick="receptAblak('fahejas1');" class="btn-bg food-btn btn"> Recept </div>
+        </div>
+        <div id="fahejas1-tartalom" class="modal">
+          <div class="modal-content">
+            <span id="hatter"></span>
+            <h1>Kolbászos rántotta</h1>
+            <p>Hozzávalók:</p>
+            <ul>
+              <li>tojások</li>
+              <li>pár szelet kolbász</li>
+              <li>sajt</li>
+              <li>koktélparadicsom</li>
+            </ul>
+            <p>Fűszerek:</p>
+            <ul>
+              <li>só</li>
+              <li>bors</li>
+              <li>oregánót</li>
+              <li>bazsalikom</li>
+            <p></p>Elkészítés:
+            <ol>
+              <li>Egy serpenyőbe beletesszük a kis darabokra vágott kolbászt.</li>
+              <li>Kicsit megpirítjuk.</li>
+              <li>Ennek a zsírjába beleütjükk a tojásokat.</li>
+              <li>Picit megkeverjük (nem kell,hogy egyneműek legyenek)</li>
+              <li>Rárakjuk a szeletelt sajtot, paradicsomot</li>
+              <li>1-1,5 percig sütjük így majd tálaljuk.</li>
+              </ol>
+
+          </div>
+        </div>
+      </div>
+    <div class="block">
+        <img src="../img/REGGELIK/almáspalacsinta.jpg" alt="" class="food-image right">
+        <div class="food-text">
+          <div class="food-titles">
+            <p class="name">Almás amerikai palacsinta</p>
+            <p>Elkészítés: 20 perc</p>
+            <p>KÖZEPES</p>
+          </div>
+          <p class="description">Ki ismer jobb reggelit az amerikai palacsintánál? Én ezt még megspékeltem egy kis almával. Próbáld ki mert isteni lett a végeredmény!</p>
+          <div id="pali-gomb" onclick="receptAblak('pali');" class="btn-bg food-btn btn"> Recept </div>
+        </div>
+        <div id="pali-tartalom" class="modal">
+          <div class="modal-content">
+            <span id="hatter"></span>
+            <h1>Almás amerikai palacsinta</h1>
+            <p>Hozzávalók:</p>
+            <ul>
+              <li>250 g liszt</li>
+              <li>2 ek cukor</li>
+              <li>1 csomag vaníliás cukor</li>
+              <li>2,5 dl tej</li>
+              <li>2 db reszelt alma</li>
+              <li>1 ek olaj</li>
+              <li>1 tk fahéj</li>
+            </ul>
+
+            <p></p>Elkészítés:
+            <ol>
+              <li>A tojásokat ketté választjuk.</li>
+              <li>A sárgáját felverjük a cukorral és vaníliás cukorral</li>
+              <li>Ehhez hozzáadjuk a lisztet majd fokozatosan a tejet is.</li>
+              <li>Majd az olajat és a reszelt almát.</li>
+              <li>A tojás fehérjét habbá verjük és szépen lassan és óvatosan (hogy ne törjük össze a habot)hozákeverjük a másik masszához.</li>
+              <li>Egy nagyon kis olajon megsütjük. KÉSZ</li>
+          </div>
+        </div>
+      </div>
+    <div class="block">
+      <img src="../img/REGGELIK/kakaóstekercs.jpg" alt="" class="food-image right">
+      <div class="food-text">
+        <div class="food-titles">
+          <p class="name">Kakaós tekertcs</p>
+          <p>Elkészítés: 15 perc + 45 perc pihentetés + 13 perc sütés</p>
+          <p>KÖZEPES</p>
+        </div>
+        <p class="description">Az általásos iskolában szinte minden reggel ilyet reggeliztem. Mai napig imádom regglire szóval most elhoztam nektek az isteni homemade verziót.</p>
+        <div id="fahejas1-gomb" onclick="receptAblak('fahejas1');" class="btn-bg food-btn btn"> Recept </div>
+      </div>
+      <div id="fahejas1-tartalom" class="modal">
+        <div class="modal-content">
+          <span id="hatter"></span>
+          <p>Tartalom1</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="about-me">
+  <img src="../img/profile.jpg" class="profile">
+  <p>Szia. Flóra vagyok!</p>
+  <p>Tanulok még és szenvedélyesen <br> rajongok a gasztronómiáért!</p>
+  <p>Üdvözöllek a blogomon!</p>
+  <div class="insta">
+    <div>INSTAGRAM</div>
+    <a href="https://www.instagram.com/flowreceptek/" target="_blank">@flowreceptek</a>
+    <br>
+    <a href="https://www.instagram.com/nemeth.floraa/" target="_blank">@nemeth.floraa</a>
+  </div>
+</div>
+
+<script src="../recept-ablak.js"></script>
+</body>
